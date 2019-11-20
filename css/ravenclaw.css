@@ -106,10 +106,6 @@
     padding: 50px 0 150px 0;
 }
 
-.characterText{
-    margin-top: -800px;
-}
-
 #charactersImages{
     display: flex;
     flex-direction: column;
@@ -118,7 +114,19 @@
     padding: 0 30px;
     width: 350px;
     height: 600px;
+    padding-top: 50px;
 }
+
+.characterText{
+    font-family: "Harry Potter";
+    font-size: 35px;
+    border-radius: 15px;
+    color: white;
+    margin-top: -500px;
+    text-align: center;
+  
+}
+
 #charactersImages .characterImage,
 #charactersImages .characterText { transition: opacity 0.5s ease-in-out }
 #charactersImages .characterText { opacity: 0; }
@@ -137,14 +145,14 @@
 
 }
 
-.quote{
- 
+.quote{ 
     padding: 50px 200px;
     text-align: center;
     color: white;
     font-family: "Harry Potter";
     font-size: 60px;
 }
+
 @media screen and (max-width: 1200px){
     .characters{
         flex-direction: column;
