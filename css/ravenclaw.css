@@ -85,6 +85,7 @@
         transform: rotate(360deg);
     }
 }
+
 #circle{
     display: flex;
     justify-content: center;
@@ -95,18 +96,36 @@
     animation-timing-function: linear;
     
 }
+
 .characters{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 150px 0;
 }
-.charactersImages{
 
-    padding: 0 30px;
+.characterText{
+    margin-top: -800px;
 }
+
+#charactersImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 350px;
+    height: 600px;
+}
+#charactersImages .characterImage,
+#charactersImages .characterText { transition: opacity 0.5s ease-in-out }
+#charactersImages .characterText { opacity: 0; }
+
+#charactersImages:hover .characterImage { opacity: 0; }
+#charactersImages:hover .characterText { opacity: 1; }
+
 .nameOfCharacters{
     font-family: "Harry Potter";
     font-size: 50px;
