@@ -28,6 +28,7 @@
 }
 
 ul{
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,6 +36,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     margin: 0px;
+
 }
 
 li{
@@ -50,9 +52,9 @@ a{
 }
 
 li:hover{
-    
+
     animation-name: transition;
-    animation-duration: 2s;
+    animation-duration: 1s;
     border-radius: 15px;
 }
 
