@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/js/nav.js"></script>
+    <script src="/js/footer.js"></script>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/contact.js"></script>
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <div id="nav_bar"></div>
+    <div class=wrapContact>
+        <form name="form">
+            <div class="forms">
+                <h1 id="house">What would you change?</h1>
+
+
+                <h1 id="house">House</h1>
+                <div id="choices">
+
+                    <ul>
+                        <li>
+                            <input type="radio" name="house" value="Hogwarts" checked="checked">
+                            <h3 id="name">Hogwarts</h3><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="house" value="Gryffindor">
+                            <h3 id="name">Gryffindor</h3><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="house" value="Slytherin">
+                            <h3 id="name">Slytherin</h3><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="house" value="Ravenclaw">
+                            <h3 id="name">Ravenclaw</h3><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="house" value="Hufflepuff">
+                            <h3 id="name">Hufflepuff</h3><br>
+                        </li>
+                    </ul>
+                </div>
+                <h2 id="house" style="padding-bottom: 10px;"> Reason</h2>
+                <div id="textArea">
+
+                    <textarea
+                        style="border-radius: 15px; font-family: Harry Potter; font-size: 25px; text-align: center;"
+                        rows="10" cols="70"></textarea>
+                </div>
+
+                <h1 id="house">Grade</h1>
+                <div id="dropDownList">
+
+                    <select style="height:50px; width: 300px; font-family:Harry Potter; font-size:25px; " name="Grade">
+                        <option value="a">One</option>
+                        <option value="b">Two</option>
+                        <option value="c">Three</option>
+                        <option value="d">Four</option>
+                        <option value="e">Five</option>
+
+                    </select>
+                </div>
+                <h2 id="house">Name:</h2>
+                <div id="text">
+                    <input type="text" name="fullname" id="inputData"><br>
+                </div>
+                <h2 id="house"> Surname:</h2>
+                <div id="text">
+                    <input type="text" name="surname" id="inputData"><br>
+                </div>
+                <h2 id="house">Email:</h2>
+                <div id="text">
+                    <input type="text" name="email" id="inputData"><br>
+                </div>
+                <div id="submit">
+                    <button id="submitButton" onclick="return validateForm()">
+                        Submit
+                    </button>
+                </div>
+        </form>
+
+
+
+    </div>
+
+    </div>
+    <div id="footer"></div>
+
+</body>
+
+</html>
