@@ -1,10 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 .wrap{
     background-image: url(/assets/images/Ravenclaw-Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden
 }

@@ -34,10 +34,7 @@ input[type = radio]{
     padding-top:30px ;
     padding-bottom: 10px;
 }
-/* .radio{
-    display: block;
-    margin: 0 auto;
-} */
+
 
 form{
     background-color: orange;

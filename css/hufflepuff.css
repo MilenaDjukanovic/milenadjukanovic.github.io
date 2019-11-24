@@ -2,4 +2,5 @@
     background-image: url(/assets/images/hufflepuffBackground.svg);
     background-repeat: none;
     background-size: cover;
+    overflow: hidden;
 }
