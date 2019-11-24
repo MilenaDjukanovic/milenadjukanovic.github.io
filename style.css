@@ -34,10 +34,11 @@ body{
     .child{
         padding: 0 0 30px 0 !important;
     }
+
 }
 
 .child{
-    width: 100%;
+    width: 85%;
     padding: 12px;
 }
 
@@ -62,6 +63,7 @@ body{
     top: 0;
     left: 0;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
@@ -88,10 +90,12 @@ body{
 }
 
 .characterInfoContainer{
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .characterInfo{
@@ -115,7 +119,7 @@ body{
 .characterTitle{
     font-family: "Harry Potter", serif;
     font-size: 50px;
-    padding-top: 30px;
+    padding-top: 40px;
     color: white;
 }
 
