@@ -3,11 +3,11 @@
  
 }
 
-@keyframes transition{
+/* @keyframes transition{
     from{color:white;}
     to{color:orange;}
   
-}
+} */
 
 .main_nav{
     background-color:#202020;
@@ -59,12 +59,13 @@ button{
     width: 100px;
     font-size: 30px;
     font-family: "Harry Potter";
-    background-color: orange;
+    background-color: transparent;
     border-radius: 10px;
     border: none;
     color:black;
 }
-
-button:hover{
-    background-color: white;
+.selectedPage{
+    background-color: orange;
 }
+
+
